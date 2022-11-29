@@ -8,39 +8,19 @@ body {
 }
 
 header {
-  font-family: monospace;
-  font-size: 20px;
-  margin: 20px , 0 , 0 , 30px;
   text-align: center;
+  font-family: monospace;
+  font-size: 23px;
+  margin-top: 60px;
 }
 
 h2 {
   display: flex;
+  justify-content: center;
   font-family: monospace;
-  font-size: 18px;
-  text-align: center;
-}
-
-.divPlanetas {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.divPlanetas, div {
-  display: flex;
-  height: 100px;
-  margin: 10px;
-  margin-top: 70px;
-  width: 100px;
-}
-
-.divPlanetas, img {
-  width: 120px;
-}
-
-.planetName {
-  display: flex;
+  font-size: 28px;
+  margin: 50px;
+  padding: 15px;
   text-align: center;
 }
 
@@ -48,4 +28,46 @@ h2 {
   display: flex;
   justify-content: space-around;
   margin: 0 20px 100px;
+  flex-wrap: wrap;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.planetas:hover {
+  filter: drop-shadow(10px 6px 5px rgba(255, 255, 255, 0.5));
+}
+
+.divPlanetas, img {
+  width: 134px;
+}
+
+.divPlanetas, p {
+  text-align: center;
+}
+
+.missoes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.1);
+  max-width: 850px;
+  border-radius: 10px;
+  padding: 10px 30px;
+  border: 1px solid white;
+}
+
+.mission-card{
+border: 1px solid white;
+border-radius: 10px;
+width: 370px;
+height: 160px;
+margin: 5px 5px 5px 5px;
+font-family: monospace;
+font-size: 15px;
+}
+
+.mission-card :first-child {
+  text-align: left;
+  margin-left: 9px;
+  font-size: 17px;
 }
