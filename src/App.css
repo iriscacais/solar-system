@@ -8,29 +8,29 @@ body {
 }
 
 header {
-  text-align: center;
   font-family: monospace;
   font-size: 23px;
   margin-top: 60px;
+  text-align: center;
 }
 
 h2 {
   display: flex;
-  justify-content: center;
   font-family: monospace;
   font-size: 28px;
+  justify-content: center;
   margin: 50px;
   padding: 15px;
   text-align: center;
 }
 
 .planetas {
+  cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: 0 20px 100px;
-  flex-wrap: wrap;
-  transition: all 0.5s;
-  cursor: pointer;
+  transition: all 0.5s; 
 }
 
 .planetas:hover {
@@ -62,8 +62,8 @@ h2 {
   height: 160px;
   width: 370px;
   font-family: monospace;
-  margin: 5px;
   font-size: 15px;
+  margin: 5px; 
 }
 
 .mission-card :first-child {
