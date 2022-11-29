@@ -1,27 +1,32 @@
 .App {
   text-align: center;
 }
+
 body {
   background-image: url('./images/background.png');
   color: aliceblue;
 }
+
 header {
   font-family: monospace;
   font-size: 20px;
-  text-align: center;
   margin: 20px, 0, 0, 30px;
+  text-align: center;
 }
+
 h2 {
   display: flex;
   font-family: monospace;
   font-size: 18px;
   text-align: center;
 }
+
 .divPlanetas {
   align-items: center;
   display: flex;
   flex-direction: column;
 }
+
 .divPlanetas, div {
   display: flex;
   height: 100px;
@@ -29,13 +34,16 @@ h2 {
   margin-top: 70px;
   width: 100px;
 }
+
 .divPlanetas, img {
   width: 120px;
 }
+
 .planetName {
   display: flex;
   text-align: center;
 }
+
 .planetas {
   display: flex;
   justify-content: space-around;
