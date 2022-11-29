@@ -1,46 +1,41 @@
 .App {
   text-align: center;
 }
-body{
+body {
   background-image: url('./images/background.png');
   color: aliceblue;
 }
 header {
+font-family:monospace;  
 text-align: center;
-font-family:monospace;
 font-size: 20px;
 margin: 20px, 0, 0, 30px;
-
 }
 h2 {
-  text-align: center;
-  font-family: monospace;
-  font-size: 18px;
   display: flex;
-
+  font-family: monospace;
+  text-align: center;
+  font-size: 18px;
 }
-
-.divPlanetas{
+.divPlanetas {
   align-items: center;
   display: flex;
   flex-direction: column;
 }
-.divPlanetas, div{
+.divPlanetas, div {
   display: flex;
-  width: 100px;
   height: 100px;
+  width: 100px;
   margin: 10px;
   margin-top: 70px;
-  
 }
 .divPlanetas, img {
   width: 120px;
 }
 .planetName {
-  text-align: center;
   display: flex;
+  text-align: center;
 }
-
 .planetas {
   display: flex;
   justify-content: space-around;
