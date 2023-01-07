@@ -1,13 +1,24 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Projeto Solar System :earth_americas:
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## Desenvolvido no módulo de front-end do curso de desenvolvimento web da Trybe 🚀
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+### Descrição do projeto
+  Desenvolvido um modelo de sistema solar em React! Onde a pessoa usuária será capaz de visualizar na tela os planetas do sistema solar e cards com informações sobre as missões espaciais.
+
+### Tecnologias usadas no desenvolvimento do projeto
+  - Uso de JSX no React;
+  - Método render() para renderizar componentes na tela;
+  - import para trazer componentes de diferentes arquivos;
+  - Criar componentes de classe;
+  - Criar múltiplos componentes a partir de um array;
+  - Fazer uso de props e PropTypes para validar as props de um componente.
+  - CSS 
+  
+### Para rodar esse projeto
+Para ver esse projeto funcionando na sua máquina:
+- Clonar o repositório:
+> git clone git@github.com:iriscacais/shopping-cart.git
+- Instalar as dependências:
+> npm install
+- Para visualizar o projeto em uma página web utilize:
+> npm start
